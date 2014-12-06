@@ -18,11 +18,13 @@
   "homepage": "https://github.com/gastrodia/node-spider-demo",
   "dependencies": {
     "chalk": "^0.5.1",
+    "cheerio": "^0.18.0",
     "commander": "^2.5.0",
-    "say": "^0.6.0"
+    "say": "^0.6.0",
+    "superagent": "^0.21.0"
   },
-  "bin":{
-    "dict":"./src/dict.js",
-    "plant-spider":"./src/plant-spider.js"
+  "bin": {
+    "dict": "./src/dict.js",
+    "plant-spider": "./src/plant-spider.js"
   }
 }
